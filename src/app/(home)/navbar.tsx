@@ -58,7 +58,7 @@ children: 'Contact'
 
 export const Navbar = () => {
   const pathname= usePathname();
-  const [isSidebarOpen ,setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen ,setIsSidebarOpen] = useState(false);
  return (
   <nav className="h-20 flex border-b bg-white font-medium justify-between">  
   <Link href="/" className="pl-6 flex items-center">
